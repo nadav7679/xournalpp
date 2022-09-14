@@ -199,6 +199,7 @@ public:
 
     void addDefaultPage(std::string pageTemplate);
     void insertNewPage(size_t position);
+    void extendRightMargin();
     void appendNewPdfPages();
     void insertPage(const PageRef& page, size_t position);
     void deletePage();
