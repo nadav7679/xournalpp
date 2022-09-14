@@ -161,7 +161,7 @@ auto ActionType_fromString(const string& value) -> ActionType {
     }
 
     if (value == "ACTION_EXTEND_RIGHT_MARGIN") {
-        return ACTION_EXTEND_RIGHT_MARGIN
+        return ACTION_EXTEND_RIGHT_MARGIN;
     }
 
     if (value == "ACTION_APPEND_NEW_PDF_PAGES") {
