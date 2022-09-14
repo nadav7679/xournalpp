@@ -529,7 +529,7 @@ void Control::actionPerformed(ActionType type, ActionGroup group, GdkEvent* even
             break;
         case ACTION_EXTEND_RIGHT_MARGIN:
             extendRightMargin();
-            break
+            break;
         case ACTION_DELETE_PAGE:
             deletePage();
             break;
